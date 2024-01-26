@@ -1,0 +1,23 @@
+<div id="hostibu-custom-section">
+    <div class="hostibu-custom-code">{{section.settings.custom_HTML}}</div>
+</div>
+{% schema %}
+    {
+        "name": "Custom HTML",
+        "settings": [
+            {
+                "type":"textarea",
+                "id": "custom_HTML",
+                "label": "Code"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom HTML",
+                "category": "hostibu",
+                "settings": {
+                }
+            }
+        ]
+    }
+{% endschema %}
